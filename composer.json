@@ -1,0 +1,15 @@
+{
+  "require": {
+    "illuminate/container": "^7.27",
+    "illuminate/database": "^7.27",
+    "illuminate/events": "^7.27",
+    "illuminate/routing": "^7.27",
+    "illuminate/config": "^7.27",
+    "illuminate/console": "^7.27"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}

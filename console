@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+use App\Bootstrap;
+
+include_once 'vendor/autoload.php';
+
+try {
+    $bootstrap = new Bootstrap(__DIR__);
+    $bootstrap->boot();
+    $bootstrap->console();
+} catch (Exception $e) {
+}
